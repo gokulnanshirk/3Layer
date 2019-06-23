@@ -1,0 +1,34 @@
+.category{
+  /* background-color: #7d838a; */
+  background-image: linear-gradient(
+    to bottom,
+    #acafb6,
+    #1a1a1b
+  );
+  color:#ffffff;
+min-height:900px;
+
+}
+.list{
+  color: #0f1013;
+  opacity: 0.6;
+}
+.zoomdetail {
+  transition: transform 0.2s;
+}
+.zoomdetail:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.01);
+  color: #ffffff;
+  background-color: #636568;
+}
+.form{
+  margin-top: 20px;
+  width: 200px;
+  justify-content: center
+}
+
+
+
+
